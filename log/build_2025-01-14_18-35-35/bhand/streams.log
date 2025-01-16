@@ -1,0 +1,26 @@
+[0.015s] Invoking command in '/home/kimsy/allegro_ws/build/bhand': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/bhand -- -j16 -l16
+[0.044s] Invoked command in '/home/kimsy/allegro_ws/build/bhand' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/bhand -- -j16 -l16
+[0.052s] Invoking command in '/home/kimsy/allegro_ws/build/bhand': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/bhand
+[0.058s] -- Install configuration: ""
+[0.058s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/include/bhand
+[0.058s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/include/bhand/BHand.h
+[0.058s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/include/bhand/BHandDef.h
+[0.058s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/lib/libBHand.so
+[0.058s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/bhand/environment/library_path.sh
+[0.059s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/bhand/environment/library_path.dsv
+[0.059s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/ament_index/resource_index/package_run_dependencies/bhand
+[0.059s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/ament_index/resource_index/parent_prefix_path/bhand
+[0.059s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/bhand/environment/ament_prefix_path.dsv
+[0.059s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/bhand/environment/path.dsv
+[0.059s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/bhand/local_setup.bash
+[0.059s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/bhand/local_setup.sh
+[0.059s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/bhand/local_setup.zsh
+[0.059s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/bhand/local_setup.dsv
+[0.059s] -- Installing: /home/kimsy/allegro_ws/install/bhand/share/bhand/package.dsv
+[0.059s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/ament_index/resource_index/packages/bhand
+[0.059s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/bhand/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.059s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/bhand/cmake/ament_cmake_export_libraries-extras.cmake
+[0.059s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/bhand/cmake/bhandConfig.cmake
+[0.059s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/bhand/cmake/bhandConfig-version.cmake
+[0.059s] -- Up-to-date: /home/kimsy/allegro_ws/install/bhand/share/bhand/package.xml
+[0.061s] Invoked command in '/home/kimsy/allegro_ws/build/bhand' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/bhand

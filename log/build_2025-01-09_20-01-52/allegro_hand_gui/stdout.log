@@ -1,0 +1,60 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/home/kimsy/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.11 (/home/kimsy/ros2_humble/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/home/kimsy/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/home/kimsy/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/home/kimsy/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/home/kimsy/ros2_humble/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/home/kimsy/ros2_humble/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /home/kimsy/ros2_humble/install/fastrtps/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kimsy/allegro_ws/build/allegro_hand_gui
+[ 20%] [34m[1mAutomatic MOC and UIC for target allegro_hand_gui_node[0m
+[ 20%] Built target allegro_hand_gui_node_autogen
+[ 80%] [32mBuilding CXX object CMakeFiles/allegro_hand_gui_node.dir/allegro_hand_gui_node_autogen/mocs_compilation.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/allegro_hand_gui_node.dir/src/mainwindow.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/allegro_hand_gui_node.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable allegro_hand_gui_node[0m
+[100%] Built target allegro_hand_gui_node
+-- Install configuration: ""
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/lib/allegro_hand_gui/allegro_hand_gui_node
+-- Set runtime path of "/home/kimsy/allegro_ws/install/allegro_hand_gui/lib/allegro_hand_gui/allegro_hand_gui_node" to ""
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/ui
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/ui/mainwindow.ui
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/ament_index/resource_index/package_run_dependencies/allegro_hand_gui
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/ament_index/resource_index/parent_prefix_path/allegro_hand_gui
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/environment/ament_prefix_path.sh
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/environment/ament_prefix_path.dsv
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/environment/path.sh
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/environment/path.dsv
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/local_setup.bash
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/local_setup.sh
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/local_setup.zsh
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/local_setup.dsv
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/package.dsv
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/ament_index/resource_index/packages/allegro_hand_gui
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/cmake/allegro_hand_guiConfig.cmake
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/cmake/allegro_hand_guiConfig-version.cmake
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/package.xml

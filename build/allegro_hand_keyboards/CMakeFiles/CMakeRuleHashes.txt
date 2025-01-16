@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+61ae4e943a1e5bbe70b35f212067ed81 CMakeFiles/allegro_hand_keyboards_uninstall

@@ -1,0 +1,73 @@
+-- Found ament_cmake_python: 1.3.11 (/home/kimsy/ros2_humble/install/ament_cmake_python/share/ament_cmake_python/cmake)
+-- Found ament_cmake: 1.3.11 (/home/kimsy/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)
+-- Found rclpy: 3.3.15 (/home/kimsy/ros2_humble/install/rclpy/share/rclpy/cmake)
+-- Found rclcpp: 16.0.11 (/home/kimsy/ros2_humble/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/home/kimsy/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/home/kimsy/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/home/kimsy/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/home/kimsy/ros2_humble/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/home/kimsy/ros2_humble/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found moveit_ros_planning_interface: 2.5.6 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Found rclcpp_lifecycle: 16.0.11 (/home/kimsy/ros2_humble/install/rclcpp_lifecycle/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found yaml_cpp_vendor: 8.0.2 (/home/kimsy/ros2_humble/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kimsy/allegro_ws/build/allegro_hand_moveit
+[ 50%] [32mBuilding CXX object CMakeFiles/save_joint_angles.dir/src/save_joint_angles.cpp.o[0m
+[100%] [32m[1mLinking CXX executable save_joint_angles[0m
+[100%] Built target save_joint_angles
+-- Install configuration: ""
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/ament_index/resource_index/package_run_dependencies/allegro_hand_moveit
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/ament_index/resource_index/parent_prefix_path/allegro_hand_moveit
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/environment/ament_prefix_path.sh
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/environment/ament_prefix_path.dsv
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/environment/path.sh
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/environment/path.dsv
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/local_setup.bash
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/local_setup.sh
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/local_setup.zsh
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/local_setup.dsv
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/package.dsv
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/ament_index/resource_index/packages/allegro_hand_moveit
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/cmake/allegro_hand_moveitConfig.cmake
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/cmake/allegro_hand_moveitConfig-version.cmake
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/package.xml
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/launch
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/launch/rsp.launch.py
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/launch/move_group.launch.py
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/launch/setup_assistant.launch.py
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/launch/moveit_rviz.launch.py
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/launch/static_virtual_joint_tfs.launch.py
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/launch/demo.launch.py
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/launch/warehouse_db.launch.py
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/launch/spawn_controllers.launch.py
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/config
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/config/pilz_cartesian_limits.yaml
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/config/allegro_hand.ros2_control.xacro
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/config/ros2_controllers.yaml
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/config/kinematics.yaml
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/config/allegro_hand_left_A.urdf.xacro
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/config/moveit_controllers.yaml
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/config/initial_positions.yaml
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/config/allegro_hand_right_B.urdf.xacro
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/config/moveit.rviz
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/config/allegro_hand_right_A.urdf.xacro
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/config/allegro_hand.srdf
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/config/allegro_hand_left_B.urdf.xacro
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/config/joint_limits.yaml
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/.setup_assistant
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_moveit/lib/allegro_hand_moveit/save_joint_angles
+-- Set runtime path of "/home/kimsy/allegro_ws/install/allegro_hand_moveit/lib/allegro_hand_moveit/save_joint_angles" to ""

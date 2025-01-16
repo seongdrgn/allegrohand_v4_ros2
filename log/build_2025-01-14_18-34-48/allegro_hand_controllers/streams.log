@@ -1,0 +1,92 @@
+[0.011s] Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_controllers': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_controllers -- -j16 -l16
+[0.060s] [ 50%] Built target allegro_node
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target allegro_node_grasp[0m
+[0.089s] [ 75%] [32mBuilding CXX object CMakeFiles/allegro_node_grasp.dir/src/allegro_node_grasp.cpp.o[0m
+[2.131s] [01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_controllers/src/allegro_node_grasp.cpp:[m[K In member function ‘[01m[Kvoid AllegroNodeGrasp::setJointCallback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.131s] [01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_controllers/src/allegro_node_grasp.cpp:155:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.131s]   155 |   for (int i = 0; i < DOF_JOINTS && [01;35m[Ki < msg->position.size()[m[K; i++)
+[2.131s]       |                                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.135s] In file included from [01m[K/home/kimsy/ros2_humble/build/rclcpp/include/rclcpp/logging.hpp:24[m[K,
+[2.135s]                  from [01m[K/home/kimsy/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.135s]                  from [01m[K/home/kimsy/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.135s]                  from [01m[K/home/kimsy/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.135s]                  from [01m[K/home/kimsy/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.135s]                  from [01m[K/home/kimsy/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.135s]                  from [01m[K/home/kimsy/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.135s]                  from [01m[K/home/kimsy/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.135s]                  from [01m[K/home/kimsy/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.135s]                  from [01m[K/home/kimsy/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.135s]                  from [01m[K/home/kimsy/ros2_humble/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.135s]                  from [01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_controllers/src/allegro_node_grasp.h:5[m[K,
+[2.135s]                  from [01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_controllers/src/allegro_node_grasp.cpp:1[m[K:
+[2.135s] [01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_controllers/src/allegro_node_grasp.cpp:[m[K In member function ‘[01m[Kvoid AllegroNodeGrasp::initController(const string&, const string&)[m[K’:
+[2.135s] [01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_controllers/src/allegro_node_grasp.cpp:219:35:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Kdouble*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.135s]   219 |   RCLCPP_INFO(this->get_logger(), [01;35m[K"Desired position set to current position: %.3f"[m[K, [32m[Kdesired_position[m[K);
+[2.135s]       |                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+[2.135s]       |                                                                                     [32m[K|[m[K
+[2.135s]       |                                                                                     [32m[Kdouble*[m[K
+[2.135s] [01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_controllers/src/allegro_node_grasp.cpp:219:81:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.135s]   219 |   RCLCPP_INFO(this->get_logger(), "Desired position set to current position: [01;36m[K%.3f[m[K", desired_position);
+[2.135s]       |                                                                              [01;36m[K~~~^[m[K
+[2.135s]       |                                                                                 [01;36m[K|[m[K
+[2.136s]       |                                                                                 [01;36m[Kdouble[m[K
+[10.464s] [100%] [32m[1mLinking CXX executable allegro_node_grasp[0m
+[11.444s] [100%] Built target allegro_node_grasp
+[11.455s] Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_controllers' returned '0': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_controllers -- -j16 -l16
+[11.457s] Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_controllers': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_controllers
+[11.463s] -- Install configuration: ""
+[11.463s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/lib/allegro_hand_controllers/liballegro_node.a
+[11.463s] -- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/lib/allegro_hand_controllers/allegro_node_grasp
+[11.476s] -- Set runtime path of "/home/kimsy/allegro_ws/install/allegro_hand_controllers/lib/allegro_hand_controllers/allegro_node_grasp" to "/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/bhand/lib:/home/kimsy/ros2_humble/install/sensor_msgs/lib:/home/kimsy/ros2_humble/install/geometry_msgs/lib:/home/kimsy/ros2_humble/install/rclcpp/lib:/home/kimsy/ros2_humble/install/libstatistics_collector/lib:/home/kimsy/ros2_humble/install/rcl/lib:/home/kimsy/ros2_humble/install/rmw_implementation/lib:/home/kimsy/ros2_humble/install/ament_index_cpp/lib:/home/kimsy/ros2_humble/install/rcl_logging_spdlog/lib:/home/kimsy/ros2_humble/install/rcl_logging_interface/lib:/home/kimsy/ros2_humble/install/rcl_interfaces/lib:/home/kimsy/ros2_humble/install/rcl_yaml_param_parser/lib:/home/kimsy/ros2_humble/install/libyaml_vendor/lib:/home/kimsy/ros2_humble/install/rosgraph_msgs/lib:/home/kimsy/ros2_humble/install/statistics_msgs/lib:/home/kimsy/ros2_humble/install/tracetools/lib:/home/kimsy/ros2_humble/install/std_msgs/lib:/home/kimsy/ros2_humble/install/builtin_interfaces/lib:/home/kimsy/ros2_humble/install/rosidl_typesupport_fastrtps_c/lib:/home/kimsy/ros2_humble/install/rosidl_typesupport_fastrtps_cpp/lib:/home/kimsy/ros2_humble/install/fastcdr/lib:/home/kimsy/ros2_humble/install/rmw/lib:/home/kimsy/ros2_humble/install/rosidl_typesupport_introspection_cpp/lib:/home/kimsy/ros2_humble/install/rosidl_typesupport_introspection_c/lib:/home/kimsy/ros2_humble/install/rosidl_typesupport_cpp/lib:/home/kimsy/ros2_humble/install/rosidl_typesupport_c/lib:/home/kimsy/ros2_humble/install/rcpputils/lib:/home/kimsy/ros2_humble/install/rosidl_runtime_c/lib:/home/kimsy/ros2_humble/install/rcutils/lib"
+[11.476s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/launch
+[11.476s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/launch/allegro_hand.launch.py
+[11.476s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/launch/allegro_viz.launch.py
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/launch/allegro_hand_v4.launch.py
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/scripts
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/scripts/setup_can0.sh
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t5.stl
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t4_set.stl
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/new_l2.stl
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t1.stl
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/l4.stl
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/l1.stl
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/temp
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/g0.stl
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/left_hand_G.stl
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/finger_tip.stl
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t1_set.stl
+[11.477s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t2_set.stl
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t4.stl
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/new_l1.stl
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/new_l4.stl
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/l2.stl
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/l3.stl
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t2.stl
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/palm.stl
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/finger_tip_silicon.stl
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t3.stl
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t3_set.stl
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/l5.stl
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/new_l3.stl
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/pose
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/urdf
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/urdf/allegro_hand_description_left_A.urdf
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/urdf/allegro_hand_config.rviz
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/urdf/allegro_hand_description_left_B.urdf
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/urdf/allegro_hand_description_right_B.urdf
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/urdf/allegro_hand_description_right_A.urdf
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/ament_index/resource_index/package_run_dependencies/allegro_hand_controllers
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/ament_index/resource_index/parent_prefix_path/allegro_hand_controllers
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/environment/ament_prefix_path.dsv
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/environment/path.dsv
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/local_setup.bash
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/local_setup.sh
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/local_setup.zsh
+[11.478s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/local_setup.dsv
+[11.479s] -- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/package.dsv
+[11.479s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/ament_index/resource_index/packages/allegro_hand_controllers
+[11.479s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/cmake/allegro_hand_controllersConfig.cmake
+[11.479s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/cmake/allegro_hand_controllersConfig-version.cmake
+[11.479s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/package.xml
+[11.480s] Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_controllers' returned '0': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_controllers

@@ -1,0 +1,65 @@
+[0.017s] Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_driver -- -j16 -l16
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target allegro_hand_driver[0m
+[0.076s] [ 33%] [32mBuilding CXX object CMakeFiles/allegro_hand_driver.dir/src/AllegroHandDrv.cpp.o[0m
+[1.895s] [01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:[m[K In member function ‘[01m[Kbool allegro::AllegroHandDrv::init(std::string, int)[m[K’:
+[1.895s] [01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:104:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.895s]   104 | bool AllegroHandDrv::init(std::string CAN_CH, [01;35m[Kint mode[m[K)
+[1.895s]       |                                               [01;35m[K~~~~^~~~[m[K
+[1.897s] [01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:[m[K In member function ‘[01m[Kvoid allegro::AllegroHandDrv::_parseMessage(int, int, unsigned char*)[m[K’:
+[1.897s] [01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:269:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.897s]   269 |             printf(">CAN([01;35m[K%d[m[K): AllegroHand hardware version: 0x%02x%02x\n", [32m[K_can_handle[m[K, data[1], data[0]);
+[1.897s]       |                          [01;35m[K~^[m[K                                                [32m[K~~~~~~~~~~~[m[K
+[1.897s]       |                           [01;35m[K|[m[K                                                [32m[K|[m[K
+[1.897s]       |                           [01;35m[Kint[m[K                                              [32m[Kvoid*[m[K
+[1.897s]       |                          [32m[K%p[m[K
+[1.898s] [01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:318:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.898s]   318 |             printf(">CAN([01;35m[K%d[m[K): AllegroHand serial number: SAH0%d0 %c%c%c%c%c%c%c%c\n", [32m[K_can_handle[m[K, /*HAND_VERSION*/4
+[1.898s]       |                          [01;35m[K~^[m[K                                                           [32m[K~~~~~~~~~~~[m[K
+[1.898s]       |                           [01;35m[K|[m[K                                                           [32m[K|[m[K
+[1.898s]       |                           [01;35m[Kint[m[K                                                         [32m[Kvoid*[m[K
+[1.898s]       |                          [32m[K%p[m[K
+[1.898s] [01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:346:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.898s]   346 |             printf(">CAN([01;35m[K%d[m[K): AHRS Roll : 0x%02x%02x\n", [32m[K_can_handle[m[K, data[0], data[1]);
+[1.898s]       |                          [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~[m[K
+[1.898s]       |                           [01;35m[K|[m[K                              [32m[K|[m[K
+[1.898s]       |                           [01;35m[Kint[m[K                            [32m[Kvoid*[m[K
+[1.898s]       |                          [32m[K%p[m[K
+[1.898s] [01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:361:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.898s]   361 |             printf(">CAN([01;35m[K%d[m[K): Temperature[%d]: %d (celsius)\n", [32m[K_can_handle[m[K, sindex, celsius);
+[1.898s]       |                          [01;35m[K~^[m[K                                     [32m[K~~~~~~~~~~~[m[K
+[1.898s]       |                           [01;35m[K|[m[K                                     [32m[K|[m[K
+[1.898s]       |                           [01;35m[Kint[m[K                                   [32m[Kvoid*[m[K
+[1.898s]       |                          [32m[K%p[m[K
+[1.899s] [01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:262:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.899s]   262 |     int [01;35m[Ki[m[K;
+[1.899s]       |         [01;35m[K^[m[K
+[2.313s] [ 66%] [32m[1mLinking CXX static library liballegro_hand_driver.a[0m
+[2.429s] [100%] Built target allegro_hand_driver
+[2.440s] Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_driver -- -j16 -l16
+[2.441s] Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_driver
+[2.448s] -- Install configuration: ""
+[2.448s] -- Installing: /home/kimsy/allegro_ws/install/allegro_hand_driver/lib/liballegro_hand_driver.a
+[2.449s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/include/allegro_hand_driver
+[2.449s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/include/allegro_hand_driver/AllegroHandDrv.h
+[2.449s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/include/allegro_hand_driver/AllegroHandDef.h
+[2.449s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/environment/library_path.sh
+[2.449s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/environment/library_path.dsv
+[2.449s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/ament_index/resource_index/package_run_dependencies/allegro_hand_driver
+[2.449s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/ament_index/resource_index/parent_prefix_path/allegro_hand_driver
+[2.449s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/environment/ament_prefix_path.dsv
+[2.449s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/environment/path.dsv
+[2.449s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/local_setup.bash
+[2.449s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/local_setup.sh
+[2.449s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/local_setup.zsh
+[2.449s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/local_setup.dsv
+[2.449s] -- Installing: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.dsv
+[2.450s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/ament_index/resource_index/packages/allegro_hand_driver
+[2.450s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/allegro_hand_driver_exportExport.cmake
+[2.450s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/allegro_hand_driver_exportExport-noconfig.cmake
+[2.450s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/ament_cmake_export_targets-extras.cmake
+[2.450s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.450s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.450s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/allegro_hand_driverConfig.cmake
+[2.450s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/allegro_hand_driverConfig-version.cmake
+[2.450s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.xml
+[2.451s] Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_driver

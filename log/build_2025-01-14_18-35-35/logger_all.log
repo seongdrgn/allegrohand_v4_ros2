@@ -1,0 +1,484 @@
+[0.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x762da273f850>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x762da273ee90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x762da273ee90>>, mixin_verb=('build',))
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.207s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kimsy/allegro_ws'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_controllers) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_controllers) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_controllers) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_controllers) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_controllers) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_controllers) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_controllers) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_controllers) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'allegro_hand_ros2_v5/src/allegro_hand_controllers' with type 'ros.ament_cmake' and name 'allegro_hand_controllers'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_driver) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_driver) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_driver) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_driver) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_driver) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_driver) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_driver) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_driver) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'allegro_hand_ros2_v5/src/allegro_hand_driver' with type 'ros.ament_cmake' and name 'allegro_hand_driver'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_gui) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_gui) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_gui) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_gui) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_gui) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_gui) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_gui) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_gui) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'allegro_hand_ros2_v5/src/allegro_hand_gui' with type 'ros.ament_cmake' and name 'allegro_hand_gui'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_keyboards) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_keyboards) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_keyboards) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_keyboards) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_keyboards) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_keyboards) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_keyboards) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_keyboards) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_keyboards) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'allegro_hand_ros2_v5/src/allegro_hand_keyboards' with type 'ros.ament_cmake' and name 'allegro_hand_keyboards'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_moveit) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_moveit) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_moveit) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_moveit) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_moveit) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_moveit) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_moveit) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/allegro_hand_moveit) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'allegro_hand_ros2_v5/src/allegro_hand_moveit' with type 'ros.ament_cmake' and name 'allegro_hand_moveit'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/bhand) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/bhand) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/bhand) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/bhand) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/bhand) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/bhand) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/bhand) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/bhand) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(allegro_hand_ros2_v5/src/bhand) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'allegro_hand_ros2_v5/src/bhand' with type 'ros.ament_cmake' and name 'bhand'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.247s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/kimsy/allegro_ws/install
+[0.248s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install
+[0.249s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 360 installed packages in /opt/ros/humble
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_driver' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_driver' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'allegro_hand_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimsy/allegro_ws/build/allegro_hand_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimsy/allegro_ws/install/allegro_hand_driver', 'merge_install': False, 'path': '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_gui' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_gui' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_gui' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_gui' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_gui' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'allegro_hand_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimsy/allegro_ws/build/allegro_hand_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimsy/allegro_ws/install/allegro_hand_gui', 'merge_install': False, 'path': '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_gui', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'bhand' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'bhand' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'bhand' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'bhand' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'bhand' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'bhand' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'bhand' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'bhand' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'bhand' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'bhand' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimsy/allegro_ws/build/bhand', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimsy/allegro_ws/install/bhand', 'merge_install': False, 'path': '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/bhand', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_controllers' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_controllers' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'allegro_hand_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimsy/allegro_ws/build/allegro_hand_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimsy/allegro_ws/install/allegro_hand_controllers', 'merge_install': False, 'path': '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_keyboards' build argument 'cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_keyboards' build argument 'cmake_target' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_keyboards' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_keyboards' build argument 'cmake_clean_cache' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_keyboards' build argument 'cmake_clean_first' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_keyboards' build argument 'cmake_force_configure' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_keyboards' build argument 'ament_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_keyboards' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_keyboards' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'allegro_hand_keyboards' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimsy/allegro_ws/build/allegro_hand_keyboards', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimsy/allegro_ws/install/allegro_hand_keyboards', 'merge_install': False, 'path': '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_keyboards', 'symlink_install': False, 'test_result_base': None}
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_moveit' build argument 'cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_moveit' build argument 'cmake_target' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'allegro_hand_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'allegro_hand_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimsy/allegro_ws/build/allegro_hand_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimsy/allegro_ws/install/allegro_hand_moveit', 'merge_install': False, 'path': '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.284s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.285s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver' with build type 'ament_cmake'
+[0.286s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver'
+[0.287s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.291s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/bhand' with build type 'ament_cmake'
+[0.291s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/bhand'
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.294s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_gui' with build type 'ament_cmake'
+[0.294s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_gui'
+[0.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_driver -- -j16 -l16
+[0.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimsy/allegro_ws/build/bhand': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/bhand -- -j16 -l16
+[0.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_gui -- -j16 -l16
+[0.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimsy/allegro_ws/build/bhand' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/bhand -- -j16 -l16
+[0.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimsy/allegro_ws/build/bhand': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/bhand
+[0.351s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bhand)
+[0.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimsy/allegro_ws/build/bhand' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/bhand
+[0.353s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/bhand' for CMake module files
+[0.354s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/bhand' for CMake config files
+[0.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('bhand', 'cmake_prefix_path')
+[0.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/bhand/share/bhand/hook/cmake_prefix_path.ps1'
+[0.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimsy/allegro_ws/install/bhand/share/bhand/hook/cmake_prefix_path.dsv'
+[0.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/bhand/share/bhand/hook/cmake_prefix_path.sh'
+[0.355s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/bhand/lib'
+[0.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('bhand', 'ld_library_path_lib')
+[0.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/bhand/share/bhand/hook/ld_library_path_lib.ps1'
+[0.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimsy/allegro_ws/install/bhand/share/bhand/hook/ld_library_path_lib.dsv'
+[0.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/bhand/share/bhand/hook/ld_library_path_lib.sh'
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/bhand/bin'
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/bhand/lib/pkgconfig/bhand.pc'
+[0.357s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/bhand/lib/python3.10/site-packages'
+[0.357s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/bhand/bin'
+[0.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/bhand/share/bhand/package.ps1'
+[0.358s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimsy/allegro_ws/install/bhand/share/bhand/package.dsv'
+[0.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/bhand/share/bhand/package.sh'
+[0.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/bhand/share/bhand/package.bash'
+[0.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/bhand/share/bhand/package.zsh'
+[0.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimsy/allegro_ws/install/bhand/share/colcon-core/packages/bhand)
+[0.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bhand)
+[0.360s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/bhand' for CMake module files
+[0.360s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/bhand' for CMake config files
+[0.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('bhand', 'cmake_prefix_path')
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/bhand/share/bhand/hook/cmake_prefix_path.ps1'
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimsy/allegro_ws/install/bhand/share/bhand/hook/cmake_prefix_path.dsv'
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/bhand/share/bhand/hook/cmake_prefix_path.sh'
+[0.362s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/bhand/lib'
+[0.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('bhand', 'ld_library_path_lib')
+[0.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/bhand/share/bhand/hook/ld_library_path_lib.ps1'
+[0.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimsy/allegro_ws/install/bhand/share/bhand/hook/ld_library_path_lib.dsv'
+[0.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/bhand/share/bhand/hook/ld_library_path_lib.sh'
+[0.363s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/bhand/bin'
+[0.363s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/bhand/lib/pkgconfig/bhand.pc'
+[0.363s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/bhand/lib/python3.10/site-packages'
+[0.363s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/bhand/bin'
+[0.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/bhand/share/bhand/package.ps1'
+[0.364s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimsy/allegro_ws/install/bhand/share/bhand/package.dsv'
+[0.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/bhand/share/bhand/package.sh'
+[0.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/bhand/share/bhand/package.bash'
+[0.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/bhand/share/bhand/package.zsh'
+[0.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimsy/allegro_ws/install/bhand/share/colcon-core/packages/bhand)
+[0.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_driver -- -j16 -l16
+[0.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_driver
+[0.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(allegro_hand_driver)
+[0.376s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_driver' for CMake module files
+[0.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_driver
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_driver' for CMake config files
+[0.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('allegro_hand_driver', 'cmake_prefix_path')
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/hook/cmake_prefix_path.ps1'
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/hook/cmake_prefix_path.dsv'
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/hook/cmake_prefix_path.sh'
+[0.378s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_driver/lib'
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_driver/bin'
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_driver/lib/pkgconfig/allegro_hand_driver.pc'
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_driver/lib/python3.10/site-packages'
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_driver/bin'
+[0.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.ps1'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.dsv'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.sh'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.bash'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.zsh'
+[0.381s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimsy/allegro_ws/install/allegro_hand_driver/share/colcon-core/packages/allegro_hand_driver)
+[0.381s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(allegro_hand_driver)
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_driver' for CMake module files
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_driver' for CMake config files
+[0.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('allegro_hand_driver', 'cmake_prefix_path')
+[0.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/hook/cmake_prefix_path.ps1'
+[0.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/hook/cmake_prefix_path.dsv'
+[0.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/hook/cmake_prefix_path.sh'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_driver/lib'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_driver/bin'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_driver/lib/pkgconfig/allegro_hand_driver.pc'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_driver/lib/python3.10/site-packages'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_driver/bin'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.ps1'
+[0.384s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.dsv'
+[0.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.sh'
+[0.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.bash'
+[0.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.zsh'
+[0.385s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimsy/allegro_ws/install/allegro_hand_driver/share/colcon-core/packages/allegro_hand_driver)
+[0.385s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_controllers' with build type 'ament_cmake'
+[0.385s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_controllers'
+[0.386s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.386s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.389s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_keyboards' with build type 'ament_cmake'
+[0.389s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_keyboards'
+[0.390s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.390s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_controllers': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_controllers -- -j16 -l16
+[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_keyboards': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_keyboards -- -j16 -l16
+[0.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_gui -- -j16 -l16
+[0.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_gui
+[0.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(allegro_hand_gui)
+[0.417s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_gui' for CMake module files
+[0.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_gui
+[0.417s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_gui' for CMake config files
+[0.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('allegro_hand_gui', 'cmake_prefix_path')
+[0.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/hook/cmake_prefix_path.ps1'
+[0.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/hook/cmake_prefix_path.dsv'
+[0.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/hook/cmake_prefix_path.sh'
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_gui/lib'
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_gui/bin'
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_gui/lib/pkgconfig/allegro_hand_gui.pc'
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_gui/lib/python3.10/site-packages'
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_gui/bin'
+[0.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/package.ps1'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/package.dsv'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/package.sh'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/package.bash'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/package.zsh'
+[0.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimsy/allegro_ws/install/allegro_hand_gui/share/colcon-core/packages/allegro_hand_gui)
+[0.421s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(allegro_hand_gui)
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_gui' for CMake module files
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_gui' for CMake config files
+[0.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('allegro_hand_gui', 'cmake_prefix_path')
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/hook/cmake_prefix_path.ps1'
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/hook/cmake_prefix_path.dsv'
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/hook/cmake_prefix_path.sh'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_gui/lib'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_gui/bin'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_gui/lib/pkgconfig/allegro_hand_gui.pc'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_gui/lib/python3.10/site-packages'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_gui/bin'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/package.ps1'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/package.dsv'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/package.sh'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/package.bash'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/package.zsh'
+[0.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimsy/allegro_ws/install/allegro_hand_gui/share/colcon-core/packages/allegro_hand_gui)
+[0.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_keyboards' returned '0': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_keyboards -- -j16 -l16
+[0.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_keyboards': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_keyboards
+[0.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(allegro_hand_keyboards)
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_keyboards' for CMake module files
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_keyboards' returned '0': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_keyboards
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_keyboards' for CMake config files
+[0.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('allegro_hand_keyboards', 'cmake_prefix_path')
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/hook/cmake_prefix_path.ps1'
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/hook/cmake_prefix_path.dsv'
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/hook/cmake_prefix_path.sh'
+[0.469s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/lib'
+[0.469s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/bin'
+[0.469s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/lib/pkgconfig/allegro_hand_keyboards.pc'
+[0.469s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/lib/python3.10/site-packages'
+[0.469s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/bin'
+[0.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/package.ps1'
+[0.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/package.dsv'
+[0.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/package.sh'
+[0.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/package.bash'
+[0.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/package.zsh'
+[0.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/colcon-core/packages/allegro_hand_keyboards)
+[0.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(allegro_hand_keyboards)
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_keyboards' for CMake module files
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_keyboards' for CMake config files
+[0.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('allegro_hand_keyboards', 'cmake_prefix_path')
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/hook/cmake_prefix_path.ps1'
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/hook/cmake_prefix_path.dsv'
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/hook/cmake_prefix_path.sh'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/lib'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/bin'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/lib/pkgconfig/allegro_hand_keyboards.pc'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/lib/python3.10/site-packages'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/bin'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/package.ps1'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/package.dsv'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/package.sh'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/package.bash'
+[0.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/package.zsh'
+[0.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/colcon-core/packages/allegro_hand_keyboards)
+[11.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_controllers' returned '0': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_controllers -- -j16 -l16
+[11.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_controllers': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_controllers
+[11.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(allegro_hand_controllers)
+[11.757s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_controllers' for CMake module files
+[11.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_controllers' returned '0': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_controllers
+[11.757s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_controllers' for CMake config files
+[11.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('allegro_hand_controllers', 'cmake_prefix_path')
+[11.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/hook/cmake_prefix_path.ps1'
+[11.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/hook/cmake_prefix_path.dsv'
+[11.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/hook/cmake_prefix_path.sh'
+[11.759s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_controllers/lib'
+[11.759s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_controllers/bin'
+[11.759s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_controllers/lib/pkgconfig/allegro_hand_controllers.pc'
+[11.759s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_controllers/lib/python3.10/site-packages'
+[11.759s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_controllers/bin'
+[11.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/package.ps1'
+[11.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/package.dsv'
+[11.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/package.sh'
+[11.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/package.bash'
+[11.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/package.zsh'
+[11.761s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/colcon-core/packages/allegro_hand_controllers)
+[11.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(allegro_hand_controllers)
+[11.761s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_controllers' for CMake module files
+[11.761s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_controllers' for CMake config files
+[11.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('allegro_hand_controllers', 'cmake_prefix_path')
+[11.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/hook/cmake_prefix_path.ps1'
+[11.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/hook/cmake_prefix_path.dsv'
+[11.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/hook/cmake_prefix_path.sh'
+[11.763s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_controllers/lib'
+[11.763s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_controllers/bin'
+[11.763s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_controllers/lib/pkgconfig/allegro_hand_controllers.pc'
+[11.763s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_controllers/lib/python3.10/site-packages'
+[11.763s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_controllers/bin'
+[11.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/package.ps1'
+[11.764s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/package.dsv'
+[11.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/package.sh'
+[11.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/package.bash'
+[11.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/package.zsh'
+[11.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimsy/allegro_ws/install/allegro_hand_controllers/share/colcon-core/packages/allegro_hand_controllers)
+[11.765s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_moveit' with build type 'ament_cmake'
+[11.765s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_moveit'
+[11.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_moveit': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_moveit -- -j16 -l16
+[11.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_moveit' returned '0': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_moveit -- -j16 -l16
+[11.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_moveit': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_moveit
+[11.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(allegro_hand_moveit)
+[11.857s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_moveit' for CMake module files
+[11.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_moveit' returned '0': CMAKE_PREFIX_PATH=/home/kimsy/allegro_ws/install/allegro_hand_controllers:/home/kimsy/allegro_ws/install/bhand:/home/kimsy/allegro_ws/install/allegro_hand_driver:/home/kimsy/allegro_ws/install/allegro_hand_moveit:/home/kimsy/allegro_ws/install/allegro_hand_keyboards:/home/kimsy/allegro_ws/install/allegro_hand_gui:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaacsim:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_tutorials:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros2_messages:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/custom_message:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/carter_navigation:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_moveit
+[11.858s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_moveit' for CMake config files
+[11.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('allegro_hand_moveit', 'cmake_prefix_path')
+[11.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/hook/cmake_prefix_path.ps1'
+[11.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/hook/cmake_prefix_path.dsv'
+[11.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/hook/cmake_prefix_path.sh'
+[11.859s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_moveit/lib'
+[11.859s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_moveit/bin'
+[11.859s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_moveit/lib/pkgconfig/allegro_hand_moveit.pc'
+[11.859s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_moveit/lib/python3.10/site-packages'
+[11.859s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_moveit/bin'
+[11.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/package.ps1'
+[11.860s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/package.dsv'
+[11.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/package.sh'
+[11.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/package.bash'
+[11.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/package.zsh'
+[11.861s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/colcon-core/packages/allegro_hand_moveit)
+[11.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(allegro_hand_moveit)
+[11.861s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_moveit' for CMake module files
+[11.862s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_moveit' for CMake config files
+[11.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('allegro_hand_moveit', 'cmake_prefix_path')
+[11.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/hook/cmake_prefix_path.ps1'
+[11.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/hook/cmake_prefix_path.dsv'
+[11.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/hook/cmake_prefix_path.sh'
+[11.863s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_moveit/lib'
+[11.863s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_moveit/bin'
+[11.863s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_moveit/lib/pkgconfig/allegro_hand_moveit.pc'
+[11.863s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_moveit/lib/python3.10/site-packages'
+[11.863s] Level 1:colcon.colcon_core.environment:checking '/home/kimsy/allegro_ws/install/allegro_hand_moveit/bin'
+[11.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/package.ps1'
+[11.864s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/package.dsv'
+[11.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/package.sh'
+[11.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/package.bash'
+[11.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/allegro_hand_moveit/package.zsh'
+[11.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimsy/allegro_ws/install/allegro_hand_moveit/share/colcon-core/packages/allegro_hand_moveit)
+[11.865s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.866s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.870s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.873s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.873s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kimsy/allegro_ws/install/local_setup.ps1'
+[11.874s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kimsy/allegro_ws/install/_local_setup_util_ps1.py'
+[11.875s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kimsy/allegro_ws/install/setup.ps1'
+[11.876s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kimsy/allegro_ws/install/local_setup.sh'
+[11.876s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kimsy/allegro_ws/install/_local_setup_util_sh.py'
+[11.877s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kimsy/allegro_ws/install/setup.sh'
+[11.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kimsy/allegro_ws/install/local_setup.bash'
+[11.878s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kimsy/allegro_ws/install/setup.bash'
+[11.879s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kimsy/allegro_ws/install/local_setup.zsh'
+[11.879s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kimsy/allegro_ws/install/setup.zsh'

@@ -1,0 +1,82 @@
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:[m[K In member function ‘[01m[Kbool allegro::AllegroHandDrv::init(std::string, int)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:104:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  104 | bool AllegroHandDrv::init(std::string CAN_CH, [01;35m[Kint mode[m[K)
+      |                                               [01;35m[K~~~~^~~~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:[m[K In member function ‘[01m[Kvoid allegro::AllegroHandDrv::_parseMessage(int, int, unsigned char*)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:254:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%x[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  254 |             printf(">CAN([01;35m[K%x[m[K): AllegroHand hardware version: 0x%02x%02x\n", [32m[K_can_handle[m[K, data[1], data[0]);
+      |                          [01;35m[K~^[m[K                                                [32m[K~~~~~~~~~~~[m[K
+      |                           [01;35m[K|[m[K                                                [32m[K|[m[K
+      |                           [01;35m[Kunsigned int[m[K                                     [32m[Kvoid*[m[K
+      |                          [32m[K%p[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:263:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  263 |             printf(">CAN([01;35m[K%d[m[K): AllegroHand serial number: SAH0%d0 %c%c%c%c%c%c%c%c\n", [32m[K_can_handle[m[K, /*HAND_VERSION*/4
+      |                          [01;35m[K~^[m[K                                                           [32m[K~~~~~~~~~~~[m[K
+      |                           [01;35m[K|[m[K                                                           [32m[K|[m[K
+      |                           [01;35m[Kint[m[K                                                         [32m[Kvoid*[m[K
+      |                          [32m[K%p[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:299:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  299 |             printf(">CAN([01;35m[K%d[m[K): AHRS Roll : 0x%02x%02x\n", [32m[K_can_handle[m[K, data[0], data[1]);
+      |                          [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~[m[K
+      |                           [01;35m[K|[m[K                              [32m[K|[m[K
+      |                           [01;35m[Kint[m[K                            [32m[Kvoid*[m[K
+      |                          [32m[K%p[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:314:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  314 |             printf(">CAN([01;35m[K%d[m[K): Temperature finger[%d]: %x (celsius)\n", [32m[K_can_handle[m[K, sindex, celsius);
+      |                          [01;35m[K~^[m[K                                            [32m[K~~~~~~~~~~~[m[K
+      |                           [01;35m[K|[m[K                                            [32m[K|[m[K
+      |                           [01;35m[Kint[m[K                                          [32m[Kvoid*[m[K
+      |                          [32m[K%p[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:248:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  248 |     int [01;35m[Ki[m[K;
+      |         [01;35m[K^[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:[m[K In function ‘[01m[Kint canInit(const char*)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:104:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  104 |     int [01;35m[Kerr[m[K;
+      |         [01;35m[K^~~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:[m[K In function ‘[01m[Kint canReadMsg(void*, int*, int*, unsigned char*, int, int)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:143:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  143 | int canReadMsg([01;35m[Kvoid* ch[m[K, int *id, int *len, unsigned char *data, int blocking, int timeout_usec){
+      |                [01;35m[K~~~~~~^~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:[m[K In function ‘[01m[Kint canSendMsg(void*, int, char, unsigned char*, int, int)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:169:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  169 | int canSendMsg([01;35m[Kvoid* ch[m[K, int id, char len, unsigned char *data, int blocking, int timeout_usec){
+      |                [01;35m[K~~~~~~^~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:[m[K In function ‘[01m[Kint canSentRTR(void*, int, int, int)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:186:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  186 | int canSentRTR([01;35m[Kvoid* ch[m[K, int id, int blocking, int timeout_usec){
+      |                [01;35m[K~~~~~~^~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:[m[K In function ‘[01m[Kint command_can_open_with_name(void*&, const char*)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:205:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  205 | int command_can_open_with_name([01;35m[Kvoid*& ch[m[K, const char* dev_name)
+      |                                [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:[m[K In function ‘[01m[Kint command_can_open(void*)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:210:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  210 | int command_can_open([01;35m[Kvoid* ch[m[K)
+      |                      [01;35m[K~~~~~~^~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:[m[K In function ‘[01m[Kint command_can_open_ex(void*, int, int)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:215:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  215 | int command_can_open_ex([01;35m[Kvoid* ch[m[K, int type, int index)
+      |                         [01;35m[K~~~~~~^~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:215:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktype[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  215 | int command_can_open_ex(void* ch, [01;35m[Kint type[m[K, int index)
+      |                                   [01;35m[K~~~~^~~~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:215:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  215 | int command_can_open_ex(void* ch, int type, [01;35m[Kint index[m[K)
+      |                                             [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:[m[K In function ‘[01m[Kint command_can_flush(void*)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:220:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  220 | int command_can_flush([01;35m[Kvoid* ch[m[K)
+      |                       [01;35m[K~~~~~~^~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:[m[K In function ‘[01m[Kint command_can_reset(void*)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:228:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  228 | int command_can_reset([01;35m[Kvoid* ch[m[K)
+      |                       [01;35m[K~~~~~~^~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:[m[K In function ‘[01m[Kint command_can_close(void*)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:232:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  232 | int command_can_close([01;35m[Kvoid* ch[m[K)
+      |                       [01;35m[K~~~~~~^~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:[m[K In function ‘[01m[Kint command_can_set_id(void*, unsigned char)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/candrv/socket_can.cpp:242:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  242 | int command_can_set_id([01;35m[Kvoid* ch[m[K, unsigned char can_id)
+      |                        [01;35m[K~~~~~~^~[m[K

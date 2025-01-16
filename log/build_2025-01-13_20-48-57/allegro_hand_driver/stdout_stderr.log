@@ -1,0 +1,47 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/allegro_hand_driver.dir/src/AllegroHandDrv.cpp.o[0m
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:[m[K In member function ‘[01m[Kbool allegro::AllegroHandDrv::init(std::string, int)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:104:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  104 | bool AllegroHandDrv::init(std::string CAN_CH, [01;35m[Kint mode[m[K)
+      |                                               [01;35m[K~~~~^~~~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:[m[K In member function ‘[01m[Kint allegro::AllegroHandDrv::writeJointTorque()[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:164:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR[m[K’ was not declared in this scope
+  164 |         [01;31m[KROS_ERROR[m[K("Emergency stop in writeJointTorque()");
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:[m[K In member function ‘[01m[Kvoid allegro::AllegroHandDrv::setTorque(double*)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:202:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR[m[K’ was not declared in this scope
+  202 |         [01;31m[KROS_ERROR[m[K("CAN: Can not determine proper finger CAN channels. Check the Allegro Hand version number in 'zero.yaml'");
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:[m[K In member function ‘[01m[Kvoid allegro::AllegroHandDrv::_parseMessage(int, int, unsigned char*)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:269:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  269 |             printf(">CAN([01;35m[K%d[m[K): AllegroHand hardware version: 0x%02x%02x\n", [32m[K_can_handle[m[K, data[1], data[0]);
+      |                          [01;35m[K~^[m[K                                                [32m[K~~~~~~~~~~~[m[K
+      |                           [01;35m[K|[m[K                                                [32m[K|[m[K
+      |                           [01;35m[Kint[m[K                                              [32m[Kvoid*[m[K
+      |                          [32m[K%p[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:318:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  318 |             printf(">CAN([01;35m[K%d[m[K): AllegroHand serial number: SAH0%d0 %c%c%c%c%c%c%c%c\n", [32m[K_can_handle[m[K, /*HAND_VERSION*/4
+      |                          [01;35m[K~^[m[K                                                           [32m[K~~~~~~~~~~~[m[K
+      |                           [01;35m[K|[m[K                                                           [32m[K|[m[K
+      |                           [01;35m[Kint[m[K                                                         [32m[Kvoid*[m[K
+      |                          [32m[K%p[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:346:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  346 |             printf(">CAN([01;35m[K%d[m[K): AHRS Roll : 0x%02x%02x\n", [32m[K_can_handle[m[K, data[0], data[1]);
+      |                          [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~[m[K
+      |                           [01;35m[K|[m[K                              [32m[K|[m[K
+      |                           [01;35m[Kint[m[K                            [32m[Kvoid*[m[K
+      |                          [32m[K%p[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:361:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  361 |             printf(">CAN([01;35m[K%d[m[K): Temperature[%d]: %d (celsius)\n", [32m[K_can_handle[m[K, sindex, celsius);
+      |                          [01;35m[K~^[m[K                                     [32m[K~~~~~~~~~~~[m[K
+      |                           [01;35m[K|[m[K                                     [32m[K|[m[K
+      |                           [01;35m[Kint[m[K                                   [32m[Kvoid*[m[K
+      |                          [32m[K%p[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:365:13:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_WARN[m[K’ was not declared in this scope
+  365 |             [01;31m[KROS_WARN[m[K("unknown command %d, len %d", id, len);
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:262:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  262 |     int [01;35m[Ki[m[K;
+      |         [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/allegro_hand_driver.dir/build.make:76: CMakeFiles/allegro_hand_driver.dir/src/AllegroHandDrv.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/allegro_hand_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

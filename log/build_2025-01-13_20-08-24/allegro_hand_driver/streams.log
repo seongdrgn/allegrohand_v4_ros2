@@ -1,0 +1,30 @@
+[0.016s] Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_driver -- -j16 -l16
+[0.066s] [100%] Built target allegro_hand_driver
+[0.085s] Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_driver -- -j16 -l16
+[0.086s] Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_driver
+[0.093s] -- Install configuration: ""
+[0.093s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/lib/liballegro_hand_driver.a
+[0.093s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/include/allegro_hand_driver
+[0.093s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/include/allegro_hand_driver/AllegroHandDrv.h
+[0.093s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/include/allegro_hand_driver/AllegroHandDef.h
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/environment/library_path.sh
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/environment/library_path.dsv
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/ament_index/resource_index/package_run_dependencies/allegro_hand_driver
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/ament_index/resource_index/parent_prefix_path/allegro_hand_driver
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/environment/ament_prefix_path.dsv
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/environment/path.dsv
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/local_setup.bash
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/local_setup.sh
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/local_setup.zsh
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/local_setup.dsv
+[0.094s] -- Installing: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.dsv
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/ament_index/resource_index/packages/allegro_hand_driver
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/allegro_hand_driver_exportExport.cmake
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/allegro_hand_driver_exportExport-noconfig.cmake
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/ament_cmake_export_targets-extras.cmake
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/allegro_hand_driverConfig.cmake
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/allegro_hand_driverConfig-version.cmake
+[0.094s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.xml
+[0.096s] Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_driver

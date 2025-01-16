@@ -1,0 +1,61 @@
+[35m[1mConsolidate compiler generated dependencies of target allegro_hand_driver[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/allegro_hand_driver.dir/src/AllegroHandDrv.cpp.o[0m
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:[m[K In member function ‘[01m[Kbool allegro::AllegroHandDrv::init(std::string, int)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:104:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  104 | bool AllegroHandDrv::init(std::string CAN_CH, [01;35m[Kint mode[m[K)
+      |                                               [01;35m[K~~~~^~~~[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:[m[K In member function ‘[01m[Kvoid allegro::AllegroHandDrv::_parseMessage(int, int, unsigned char*)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:269:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  269 |             printf(">CAN([01;35m[K%d[m[K): AllegroHand hardware version: 0x%02x%02x\n", [32m[K_can_handle[m[K, data[1], data[0]);
+      |                          [01;35m[K~^[m[K                                                [32m[K~~~~~~~~~~~[m[K
+      |                           [01;35m[K|[m[K                                                [32m[K|[m[K
+      |                           [01;35m[Kint[m[K                                              [32m[Kvoid*[m[K
+      |                          [32m[K%p[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:318:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  318 |             printf(">CAN([01;35m[K%d[m[K): AllegroHand serial number: SAH0%d0 %c%c%c%c%c%c%c%c\n", [32m[K_can_handle[m[K, /*HAND_VERSION*/4
+      |                          [01;35m[K~^[m[K                                                           [32m[K~~~~~~~~~~~[m[K
+      |                           [01;35m[K|[m[K                                                           [32m[K|[m[K
+      |                           [01;35m[Kint[m[K                                                         [32m[Kvoid*[m[K
+      |                          [32m[K%p[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:346:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  346 |             printf(">CAN([01;35m[K%d[m[K): AHRS Roll : 0x%02x%02x\n", [32m[K_can_handle[m[K, data[0], data[1]);
+      |                          [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~[m[K
+      |                           [01;35m[K|[m[K                              [32m[K|[m[K
+      |                           [01;35m[Kint[m[K                            [32m[Kvoid*[m[K
+      |                          [32m[K%p[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:361:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kvoid*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  361 |             printf(">CAN([01;35m[K%d[m[K): Temperature[%d]: %d (celsius)\n", [32m[K_can_handle[m[K, sindex, celsius);
+      |                          [01;35m[K~^[m[K                                     [32m[K~~~~~~~~~~~[m[K
+      |                           [01;35m[K|[m[K                                     [32m[K|[m[K
+      |                           [01;35m[Kint[m[K                                   [32m[Kvoid*[m[K
+      |                          [32m[K%p[m[K
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_driver/src/AllegroHandDrv.cpp:262:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  262 |     int [01;35m[Ki[m[K;
+      |         [01;35m[K^[m[K
+[ 66%] [32m[1mLinking CXX static library liballegro_hand_driver.a[0m
+[100%] Built target allegro_hand_driver
+-- Install configuration: ""
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_driver/lib/liballegro_hand_driver.a
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/include/allegro_hand_driver
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/include/allegro_hand_driver/AllegroHandDrv.h
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/include/allegro_hand_driver/AllegroHandDef.h
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/environment/library_path.sh
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/environment/library_path.dsv
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/ament_index/resource_index/package_run_dependencies/allegro_hand_driver
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/ament_index/resource_index/parent_prefix_path/allegro_hand_driver
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/environment/path.dsv
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/local_setup.bash
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/local_setup.sh
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/local_setup.zsh
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/local_setup.dsv
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.dsv
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/ament_index/resource_index/packages/allegro_hand_driver
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/allegro_hand_driver_exportExport.cmake
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/allegro_hand_driver_exportExport-noconfig.cmake
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/allegro_hand_driverConfig.cmake
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake/allegro_hand_driverConfig-version.cmake
+-- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/package.xml

@@ -1,0 +1,14 @@
+/home/kimsy/allegro_ws/install/allegro_hand_keyboards/lib/allegro_hand_keyboards/allegro_hand_keyboard
+/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/ament_index/resource_index/package_run_dependencies/allegro_hand_keyboards
+/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/ament_index/resource_index/parent_prefix_path/allegro_hand_keyboards
+/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/environment/ament_prefix_path.dsv
+/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/environment/path.dsv
+/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/local_setup.bash
+/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/local_setup.sh
+/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/local_setup.zsh
+/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/local_setup.dsv
+/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/package.dsv
+/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/ament_index/resource_index/packages/allegro_hand_keyboards
+/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/cmake/allegro_hand_keyboardsConfig.cmake
+/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/cmake/allegro_hand_keyboardsConfig-version.cmake
+/home/kimsy/allegro_ws/install/allegro_hand_keyboards/share/allegro_hand_keyboards/package.xml

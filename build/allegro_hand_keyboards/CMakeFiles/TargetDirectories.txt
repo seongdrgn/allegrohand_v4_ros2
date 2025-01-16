@@ -1,0 +1,10 @@
+/home/kimsy/allegro_ws/build/allegro_hand_keyboards/CMakeFiles/uninstall.dir
+/home/kimsy/allegro_ws/build/allegro_hand_keyboards/CMakeFiles/allegro_hand_keyboards_uninstall.dir
+/home/kimsy/allegro_ws/build/allegro_hand_keyboards/CMakeFiles/allegro_hand_keyboard.dir
+/home/kimsy/allegro_ws/build/allegro_hand_keyboards/CMakeFiles/test.dir
+/home/kimsy/allegro_ws/build/allegro_hand_keyboards/CMakeFiles/edit_cache.dir
+/home/kimsy/allegro_ws/build/allegro_hand_keyboards/CMakeFiles/rebuild_cache.dir
+/home/kimsy/allegro_ws/build/allegro_hand_keyboards/CMakeFiles/list_install_components.dir
+/home/kimsy/allegro_ws/build/allegro_hand_keyboards/CMakeFiles/install.dir
+/home/kimsy/allegro_ws/build/allegro_hand_keyboards/CMakeFiles/install/local.dir
+/home/kimsy/allegro_ws/build/allegro_hand_keyboards/CMakeFiles/install/strip.dir

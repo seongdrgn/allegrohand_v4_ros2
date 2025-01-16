@@ -1,0 +1,104 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_python: 1.3.11 (/home/kimsy/ros2_humble/install/ament_cmake_python/share/ament_cmake_python/cmake)
+-- Found ament_cmake: 1.3.11 (/home/kimsy/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclpy: 3.3.15 (/home/kimsy/ros2_humble/install/rclpy/share/rclpy/cmake)
+-- Found rclcpp: 16.0.11 (/home/kimsy/ros2_humble/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/home/kimsy/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/home/kimsy/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/home/kimsy/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/home/kimsy/ros2_humble/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/home/kimsy/ros2_humble/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /home/kimsy/ros2_humble/install/fastrtps/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found allegro_hand_driver: 2.0.1 (/home/kimsy/allegro_ws/install/allegro_hand_driver/share/allegro_hand_driver/cmake)
+-- Found sensor_msgs: 4.2.4 (/home/kimsy/ros2_humble/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found bhand: 0.0.0 (/home/kimsy/allegro_ws/install/bhand/share/bhand/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kimsy/allegro_ws/build/allegro_hand_controllers
+[ 25%] [32mBuilding CXX object CMakeFiles/allegro_node.dir/src/allegro_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library liballegro_node.a[0m
+[ 50%] Built target allegro_node
+[ 75%] [32mBuilding CXX object CMakeFiles/allegro_node_grasp.dir/src/allegro_node_grasp.cpp.o[0m
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_controllers/src/allegro_node_grasp.cpp:[m[K In member function ‘[01m[Kvoid AllegroNodeGrasp::setJointCallback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_controllers/src/allegro_node_grasp.cpp:155:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  155 |   for (int i = 0; i < DOF_JOINTS && [01;35m[Ki < msg->position.size()[m[K; i++)
+      |                                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable allegro_node_grasp[0m
+[100%] Built target allegro_node_grasp
+-- Install configuration: ""
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/lib/allegro_hand_controllers/liballegro_node.a
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/lib/allegro_hand_controllers/allegro_node_grasp
+-- Set runtime path of "/home/kimsy/allegro_ws/install/allegro_hand_controllers/lib/allegro_hand_controllers/allegro_node_grasp" to "/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/bhand/lib:/home/kimsy/ros2_humble/install/sensor_msgs/lib:/home/kimsy/ros2_humble/install/geometry_msgs/lib:/home/kimsy/ros2_humble/install/rclcpp/lib:/home/kimsy/ros2_humble/install/libstatistics_collector/lib:/home/kimsy/ros2_humble/install/rcl/lib:/home/kimsy/ros2_humble/install/rmw_implementation/lib:/home/kimsy/ros2_humble/install/ament_index_cpp/lib:/home/kimsy/ros2_humble/install/rcl_logging_spdlog/lib:/home/kimsy/ros2_humble/install/rcl_logging_interface/lib:/home/kimsy/ros2_humble/install/rcl_interfaces/lib:/home/kimsy/ros2_humble/install/rcl_yaml_param_parser/lib:/home/kimsy/ros2_humble/install/libyaml_vendor/lib:/home/kimsy/ros2_humble/install/rosgraph_msgs/lib:/home/kimsy/ros2_humble/install/statistics_msgs/lib:/home/kimsy/ros2_humble/install/tracetools/lib:/home/kimsy/ros2_humble/install/std_msgs/lib:/home/kimsy/ros2_humble/install/builtin_interfaces/lib:/home/kimsy/ros2_humble/install/rosidl_typesupport_fastrtps_c/lib:/home/kimsy/ros2_humble/install/rosidl_typesupport_fastrtps_cpp/lib:/home/kimsy/ros2_humble/install/fastcdr/lib:/home/kimsy/ros2_humble/install/rmw/lib:/home/kimsy/ros2_humble/install/rosidl_typesupport_introspection_cpp/lib:/home/kimsy/ros2_humble/install/rosidl_typesupport_introspection_c/lib:/home/kimsy/ros2_humble/install/rosidl_typesupport_cpp/lib:/home/kimsy/ros2_humble/install/rosidl_typesupport_c/lib:/home/kimsy/ros2_humble/install/rcpputils/lib:/home/kimsy/ros2_humble/install/rosidl_runtime_c/lib:/home/kimsy/ros2_humble/install/rcutils/lib"
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/launch
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/launch/allegro_hand.launch.py
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/launch/allegro_viz.launch.py
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/scripts
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/scripts/setup_can0.sh
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t5.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t4_set.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/new_l2.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t1.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/l4.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/l1.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/temp
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/g0.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/left_hand_G.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/finger_tip.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t1_set.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t2_set.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t4.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/new_l1.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/new_l4.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/l2.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/l3.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t2.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/palm.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/finger_tip_silicon.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t3.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/t3_set.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/l5.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/meshes/new_l3.stl
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/pose
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/urdf
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/urdf/allegro_hand_description_left_A.urdf
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/urdf/allegro_hand_config.rviz
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/urdf/allegro_hand_description_left_B.urdf
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/urdf/allegro_hand_description_right_B.urdf
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/urdf/allegro_hand_description_right_A.urdf
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/ament_index/resource_index/package_run_dependencies/allegro_hand_controllers
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/ament_index/resource_index/parent_prefix_path/allegro_hand_controllers
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/environment/ament_prefix_path.sh
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/environment/ament_prefix_path.dsv
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/environment/path.sh
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/environment/path.dsv
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/local_setup.bash
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/local_setup.sh
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/local_setup.zsh
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/local_setup.dsv
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/package.dsv
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/ament_index/resource_index/packages/allegro_hand_controllers
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/cmake/allegro_hand_controllersConfig.cmake
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/cmake/allegro_hand_controllersConfig-version.cmake
+-- Installing: /home/kimsy/allegro_ws/install/allegro_hand_controllers/share/allegro_hand_controllers/package.xml

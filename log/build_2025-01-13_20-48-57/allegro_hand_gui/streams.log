@@ -1,0 +1,24 @@
+[0.012s] Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_gui -- -j16 -l16
+[0.055s] [ 20%] [34m[1mAutomatic MOC and UIC for target allegro_hand_gui_node[0m
+[0.075s] [ 20%] Built target allegro_hand_gui_node_autogen
+[0.106s] [100%] Built target allegro_hand_gui_node
+[0.117s] Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --build /home/kimsy/allegro_ws/build/allegro_hand_gui -- -j16 -l16
+[0.118s] Invoking command in '/home/kimsy/allegro_ws/build/allegro_hand_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_gui
+[0.125s] -- Install configuration: ""
+[0.125s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_gui/lib/allegro_hand_gui/allegro_hand_gui_node
+[0.126s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/ui
+[0.126s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/ui/mainwindow.ui
+[0.126s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/ament_index/resource_index/package_run_dependencies/allegro_hand_gui
+[0.126s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/ament_index/resource_index/parent_prefix_path/allegro_hand_gui
+[0.126s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/environment/ament_prefix_path.dsv
+[0.126s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/environment/path.dsv
+[0.126s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/local_setup.bash
+[0.126s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/local_setup.sh
+[0.126s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/local_setup.zsh
+[0.126s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/local_setup.dsv
+[0.127s] -- Installing: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/package.dsv
+[0.127s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/ament_index/resource_index/packages/allegro_hand_gui
+[0.127s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/cmake/allegro_hand_guiConfig.cmake
+[0.127s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/cmake/allegro_hand_guiConfig-version.cmake
+[0.127s] -- Up-to-date: /home/kimsy/allegro_ws/install/allegro_hand_gui/share/allegro_hand_gui/package.xml
+[0.129s] Invoked command in '/home/kimsy/allegro_ws/build/allegro_hand_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/kimsy/workspaces/IsaacSim-ros_workspaces/humble_ws/install/isaac_ros_navigation_goal /usr/bin/cmake --install /home/kimsy/allegro_ws/build/allegro_hand_gui

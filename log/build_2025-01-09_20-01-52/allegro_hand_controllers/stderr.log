@@ -1,0 +1,4 @@
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_controllers/src/allegro_node_grasp.cpp:[m[K In member function ‘[01m[Kvoid AllegroNodeGrasp::setJointCallback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kimsy/allegro_ws/allegro_hand_ros2_v5/src/allegro_hand_controllers/src/allegro_node_grasp.cpp:155:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  155 |   for (int i = 0; i < DOF_JOINTS && [01;35m[Ki < msg->position.size()[m[K; i++)
+      |                                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
